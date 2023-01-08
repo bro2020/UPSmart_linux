@@ -1,0 +1,67 @@
+#!/bin/sh
+ch_path=$1
+reply=$2
+echo $ch_path $reply
+dev_file=UPSmart
+dev_name=UPSmart
+dev_tar=UPSmart.tar.gz
+cur_dir=$(pwd)
+uid=$(id | cut -d'=' -f2 | cut -d'(' -f1)
+if [ $uid -ne 0 ];then
+  echo '\nRequires running as root!\nRun:\n\n  sudo ./Installer_UPSmart_linux_x86_64\n'
+  exit 1
+fi
+echo "The installation path is '/opt'."
+echo "Do you want to change it ? [ y ro n]:"
+if [ -z $ch_path ];then
+  read ch_path leftover
+fi
+case $ch_path in
+y* | Y*)
+	echo "Please input the new installation path:";
+	read new_path leftover;
+	install_dir=$new_path ;
+	;;
+n* | N*)
+	install_dir=/opt;
+	;;
+esac
+
+if [ -x $install_dir ] ; then
+	echo "The installation path is correct ."
+	cd $install_dir
+	if [ -x $install_dir/$dev_file ] ; then
+		cd $cur_dir
+	else
+		mkdir $dev_file
+		cd $cur_dir
+	fi
+	if [ -x $install_dir/$dev_file ] ; then
+		echo "Create the document successfully ."
+		tail -n +68 $0 > $install_dir/$dev_file/$dev_tar
+		cd $install_dir/$dev_file
+		echo "Has been successfully in obtaining the files ."
+		tar -xzvf $dev_tar
+		chmod 777 -R ./
+		cp -f ./UPSmart.desktop /usr/share/applications/
+		echo "The software has been installed successfully ."
+		echo "Do you want to run this software now ? [y or n]:"
+		if [ -z $reply ];then
+		  read reply leftover
+		fi
+		case $reply in
+		y* | Y*)
+			./$dev_name
+			;;
+		n* | N*)
+			echo "Exit 0";
+			;;
+		esac
+	else
+		echo "Can't create the document or no permission !";
+	fi
+else
+	echo "Can't find the path or no permission !";
+fi
+echo "Done."
+exit 0

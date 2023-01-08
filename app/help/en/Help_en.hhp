@@ -1,0 +1,29 @@
+[OPTIONS]
+Compatibility=1.1 Or later
+Default Window=Main
+Default topic=Help\index.html
+Default font=微软雅黑,9,1
+Contents file=Help_en.hhc
+Index file=Help_en.hhk
+Display compile progress=Yes
+Full-text search=Yes
+Language=0x804 中文(简体，中国)
+
+[WINDOWS]
+Main="Help_en","Help_en.hhc","Help_en.hhk","Help\index.html","Help\index.html",,,,,0x20,180,0x104E,[80,60,720,540],0x0,0x0,,,,,0
+
+[FILES]
+Help
+Help\about.html
+Help\features.html
+Help\index.html
+Help\main.html
+Help\operate
+Help\operate.html
+Help\operate\Close.html
+Help\operate\Control.html
+Help\operate\Log.html
+Help\operate\Schedule.html
+Help\operate\Setting.html
+Help\setup.html
+Help\system.html

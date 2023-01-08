@@ -1,0 +1,60 @@
+<HTML><HEAD>
+</HEAD><BODY><UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Help">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="系統支持">
+<PARAM NAME="Local" VALUE="Help\system.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="功能簡介">
+<PARAM NAME="Local" VALUE="Help\features.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="主界面說明">
+<PARAM NAME="Local" VALUE="Help\main.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="設置">
+<PARAM NAME="Local" VALUE="Help\Setting.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="排程">
+<PARAM NAME="Local" VALUE="Help\Schedule.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="記錄">
+<PARAM NAME="Local" VALUE="Help\Log.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="關閉文件">
+<PARAM NAME="Local" VALUE="Help\Close.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="UPS控制">
+<PARAM NAME="Local" VALUE="Help\Control.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="關於">
+<PARAM NAME="Local" VALUE="Help\about.html">
+</OBJECT>
+</UL>
+</UL></BODY></HTML>

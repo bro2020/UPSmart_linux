@@ -1,0 +1,72 @@
+<html><head></head><body>
+<OBJECT type="text/site properties"><param name="Window Styles" value="0x227"></OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Welcome">
+<PARAM NAME="Local" VALUE="Help\index.html">
+<PARAM NAME="ImageNumber" value="2">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Operating System Support">
+<PARAM NAME="Local" VALUE="Help\system.html">
+<PARAM NAME="ImageNumber" value="11">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Introduction">
+<PARAM NAME="Local" VALUE="Help\features.html">
+<PARAM NAME="ImageNumber" value="11">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Main Interface">
+<PARAM NAME="Local" VALUE="Help\main.html">
+<PARAM NAME="ImageNumber" value="11">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Settings">
+<PARAM NAME="Local" VALUE="Help\Setting.html">
+<PARAM NAME="ImageNumber" value="11">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Schedule">
+<PARAM NAME="Local" VALUE="Help\Schedule.html">
+<PARAM NAME="ImageNumber" value="11">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Log File">
+<PARAM NAME="Local" VALUE="Help\Log.html">
+<PARAM NAME="ImageNumber" value="11">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Close File">
+<PARAM NAME="Local" VALUE="Help\Close.html">
+<PARAM NAME="ImageNumber" value="11">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Control">
+<PARAM NAME="Local" VALUE="Help\Control.html">
+<PARAM NAME="ImageNumber" value="11">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="About">
+<PARAM NAME="Local" VALUE="Help\about.html">
+<PARAM NAME="ImageNumber" value="11">
+</OBJECT>
+</UL>
+</UL></body></html>

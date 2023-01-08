@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=UPSmart
+Exec=sudo -u root /opt/UPSmart/UPSmart
+Icon=/opt/UPSmart/ups.png
+Type=Application
+Categories=Qt;KDE;System;

@@ -1,0 +1,75 @@
+<html><head></head><body>
+<OBJECT type="text/site properties"><param name="Window Styles" value="0x227"></OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="歡迎">
+<PARAM NAME="Local" VALUE="Help\index.html">
+<PARAM NAME="ImageNumber" value="2">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="系統支持">
+<PARAM NAME="Local" VALUE="Help\system.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="功能簡介">
+<PARAM NAME="Local" VALUE="Help\features.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="安裝與卸載">
+<PARAM NAME="Local" VALUE="Help\setup.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="主界面說明">
+<PARAM NAME="Local" VALUE="Help\main.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="UPSmart操作說明">
+<PARAM NAME="Local" VALUE="Help\operate.html">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="關閉文件">
+<PARAM NAME="Local" VALUE="Help\operate\Close.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="UPS控制">
+<PARAM NAME="Local" VALUE="Help\operate\Control.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="記錄">
+<PARAM NAME="Local" VALUE="Help\operate\Log.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="排程">
+<PARAM NAME="Local" VALUE="Help\operate\Schedule.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="設置">
+<PARAM NAME="Local" VALUE="Help\operate\Setting.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="關於">
+<PARAM NAME="Local" VALUE="Help\about.html">
+</OBJECT>
+</UL>
+</UL></body></html>
